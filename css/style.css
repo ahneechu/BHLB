@@ -1,0 +1,195 @@
+body
+{
+    /*background:url('../images/bhlb_home.jpg') no-repeat 80% 10% fixed;*/
+    /*background-size: cover;*/
+    font-family: 'News Cycle', sans-serif;;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px #000; 
+}
+
+#topnav{
+	position: fixed;
+	/*margin-top: -50px;*/
+	padding-top: 40px;
+}
+
+#topnav li{
+	list-style-type: none;
+	display: inline;
+	margin: 20px;
+	opacity: 0.6;
+}
+
+#topnav a{
+	text-decoration: none;
+	color: white;
+}
+
+#topnav a:hover{
+	color: gray;
+}
+
+#footer{
+	background-color: white;
+	color: #E8A11C;
+	text-align: center;
+	padding: 2px;
+	text-shadow: none;
+}
+
+/*index.html*/
+
+#homepage_background{
+	background:url('../images/bhlb_home.jpg') no-repeat 50% 10%;
+    background-size: cover;
+    /*height: 75%;*/
+    margin-top: -30px;
+    padding: 20px;
+
+}
+
+.page_header{
+	margin-top: 450px;
+	text-align: center;
+}
+
+.page_header h2{
+	font-size: 50px;
+	line-height:1.7;
+	margin-bottom: 0px;
+	opacity: 0.6;
+}
+
+.page_header h1{
+	font-size: 90px;
+	color: #E8A11C;
+	line-height:1.7;
+	margin-top: -50px;
+	text-shadow: 1px 1px 1px #000; 
+}
+
+.page_content{
+	width: 35%;
+	margin-top: -60px;
+	margin-left: 800px;
+	padding-bottom: 20px;
+}
+
+/*learning.html css*/
+
+#learning_background{
+	background:url('../images/lawn.jpg') no-repeat 100% 90%;
+    background-size: cover;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.learning_page{
+	height: 650px;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	
+}
+
+.learning_page h1{
+	font-size: 50px;
+	opacity: 0.8;
+	margin-bottom: 5px;
+}
+
+/*traditions.html css*/
+#traditions_background{
+	background:url('../images/traditions.jpg') no-repeat 100% 100%;
+    background-size: cover;
+    height: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.traditions_page{
+	height: 650px;
+	padding-top: 30px;
+	margin-left: 60px;
+}
+
+.traditions_page h1{
+	font-size: 40px;
+	margin-bottom: 0;
+}
+
+.traditions_page h2{
+	margin-top: 0;
+	font-size: 35px;
+	color: #E8A11C;
+}
+
+/*talk.html css*/
+#talk_background{
+	background:url('../images/talk.jpg') no-repeat 100% 100%;
+    background-size: cover;
+    height: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
+.talk_content{
+	/*width: 950px;*/
+	padding-top: -90px;
+	/*margin-left: 20px;*/
+	text-align: center;
+}
+
+.talk_content h1{
+	font-size: 50px;
+	color: #E8A11C;
+	margin-bottom: 0;
+	opacity: 0.8;
+}
+
+.talk_content h2{
+	font-size: 30px;
+	margin-top: 0;
+	padding-bottom: 10px;
+	opacity: 0.8;
+}
+
+.talk_page{
+	height: 600px;
+	width: 300px;
+	/*padding-top: 10px;*/
+	margin-left: 60px;
+}
+
+
+/*contact.html css*/
+#contact_background{
+	background:url('../images/contact.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    height: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.contact_page{
+	/*height: 600px;*/
+	/*margin-top: 600px;*/
+	padding-top: 400px;
+	margin-left: 60px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	opacity: 0.8;
+}
+
+.contact_page h1{
+	font-size: 50px;
+	color: #E8A11C;
+	margin-bottom: 0;
+}
+
+
+
