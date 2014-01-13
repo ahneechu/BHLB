@@ -42,7 +42,9 @@ body
 /*index.html*/
 
 #homepage_background{
-	background:url('../images/bhlb_home.jpg') no-repeat 50% 10%;
+	background-image: url(image-path('bhlb_home.jpg'));
+	background-repeat: no-repeat;
+	/*background:url('../images/bhlb_home.jpg') no-repeat 50% 10%;*/
     background-size: cover;
     /*height: 75%;*/
     margin-top: -30px;
