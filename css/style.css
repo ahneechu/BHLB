@@ -42,7 +42,7 @@ body
 /*index.html*/
 
 #homepage_background{
-	background:url('../images/bhlb_home.jpg') no-repeat 50% 10%;
+	background:url('../images/bhlb_home.JPG') no-repeat 50% 10%;
     background-size: cover;
     /*height: 75%;*/
     margin-top: -30px;
@@ -80,7 +80,7 @@ body
 /*learning.html css*/
 
 #learning_background{
-	background:url('../images/lawn.jpg') no-repeat 100% 90%;
+	background:url('../images/lawn.JPG') no-repeat 100% 90%;
     background-size: cover;
     margin-top: 10px;
     padding: 20px;
@@ -102,7 +102,7 @@ body
 
 /*traditions.html css*/
 #traditions_background{
-	background:url('../images/traditions.jpg') no-repeat 100% 100%;
+	background:url('../images/traditions.JPG') no-repeat 100% 100%;
     background-size: cover;
     height: 100%;
     margin-top: 10px;
@@ -128,7 +128,7 @@ body
 
 /*talk.html css*/
 #talk_background{
-	background:url('../images/talk.jpg') no-repeat 100% 100%;
+	background:url('../images/talk.JPG') no-repeat 100% 100%;
     background-size: cover;
     height: 100%;
     margin-top: 10px;
@@ -168,7 +168,7 @@ body
 
 /*contact.html css*/
 #contact_background{
-	background:url('../images/contact.jpg') no-repeat 50% 50%;
+	background:url('../images/contact.JPG') no-repeat 50% 50%;
     background-size: cover;
     height: 100%;
     margin-top: 10px;
