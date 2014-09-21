@@ -1,7 +1,5 @@
 body
 {
-    /*background:url('../images/bhlb_home.jpg') no-repeat 80% 10% fixed;*/
-    /*background-size: cover;*/
     font-family: 'News Cycle', sans-serif;;
     color: white;
     margin: 0;
@@ -9,10 +7,36 @@ body
     text-shadow: 1px 1px 1px #000; 
 }
 
+h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+h2{
+	font-size: 35px;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+h3{
+	font-size: 20px;
+}
+
+p{
+	font-size: 14px;
+}
+
+/*========================================*/
+	/*NAVBAR*/
+/*========================================*/
+
 #topnav{
 	position: fixed;
-	/*margin-top: -50px;*/
+	height: 100px;
 	padding-top: 40px;
+	width: 100%;
+	z-index: 1000;
 }
 
 #topnav li{
@@ -39,19 +63,29 @@ body
 	text-shadow: none;
 }
 
-/*index.html*/
+
+/*========================================*/
+	/*HOMEPAGE*/
+/*========================================*/
+
+.bg{
+	position: relative;
+	overflow: hidden;
+}
 
 #homepage_background{
-	background:url('../images/bhlb_home.JPG') no-repeat 50% 10%;
+	position: relative;
+	background:url('../images/bhlb_home.jpg') no-repeat 50% 10%;
     background-size: cover;
-    /*height: 75%;*/
-    margin-top: -30px;
-    padding: 20px;
+    padding: 80px 20px;
+}
 
+.homeRow{
+	position: absolute;
+	top: 35%;
 }
 
 .page_header{
-	margin-top: 450px;
 	text-align: center;
 }
 
@@ -67,57 +101,39 @@ body
 	color: #E8A11C;
 	line-height:1.7;
 	margin-top: -50px;
+	margin-bottom: 0;
 	text-shadow: 1px 1px 1px #000; 
 }
 
-.page_content{
-	width: 35%;
-	margin-top: -60px;
-	margin-left: 800px;
-	padding-bottom: 20px;
+.page-content{
+	text-align: justify;
 }
 
-/*learning.html css*/
+/*========================================*/
+	/*LEARNING PAGE*/
+/*========================================*/
 
 #learning_background{
-	background:url('../images/lawn.JPG') no-repeat 100% 90%;
+	position: relative;
+	background:url('../images/lawn.jpg') no-repeat 100% 90%;
     background-size: cover;
-    margin-top: 10px;
-    padding: 20px;
+    padding: 80px 20px;
 }
 
 .learning_page{
-	height: 650px;
-	margin-top: 20px;
-	padding: 20px;
 	text-align: center;
-	
 }
 
-.learning_page h1{
-	font-size: 50px;
-	opacity: 0.8;
-	margin-bottom: 5px;
-}
+/*========================================*/
+	/*TRADITIONS PAGE*/
+/*========================================*/
 
-/*traditions.html css*/
 #traditions_background{
-	background:url('../images/traditions.JPG') no-repeat 100% 100%;
+	position: relative;
+	background:url('../images/traditions.jpg') no-repeat 100% 100%;
     background-size: cover;
     height: 100%;
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.traditions_page{
-	height: 650px;
-	padding-top: 30px;
-	margin-left: 60px;
-}
-
-.traditions_page h1{
-	font-size: 40px;
-	margin-bottom: 0;
+    padding: 80px 20px;
 }
 
 .traditions_page h2{
@@ -126,69 +142,150 @@ body
 	color: #E8A11C;
 }
 
-/*talk.html css*/
+/*========================================*/
+	/*TALK PAGE*/
+/*========================================*/
+
 #talk_background{
-	background:url('../images/talk.JPG') no-repeat 100% 100%;
+	position: relative;
+	background:url('../images/talk.jpg') no-repeat 100% 100%;
     background-size: cover;
     height: 100%;
-    margin-top: 10px;
-    padding: 20px;
+    padding: 80px 20px;
 }
 
-
-
 .talk_content{
-	/*width: 950px;*/
-	padding-top: -90px;
-	/*margin-left: 20px;*/
 	text-align: center;
 }
 
 .talk_content h1{
-	font-size: 50px;
 	color: #E8A11C;
-	margin-bottom: 0;
-	opacity: 0.8;
 }
 
 .talk_content h2{
-	font-size: 30px;
-	margin-top: 0;
-	padding-bottom: 10px;
+	font-size: 25px;
 	opacity: 0.8;
 }
 
 .talk_page{
-	height: 600px;
-	width: 300px;
-	/*padding-top: 10px;*/
-	margin-left: 60px;
+	text-align: justify;
+	position: absolute;
+	bottom: 10%;
 }
 
+/*========================================*/
+	/*CONTACT PAGE*/
+/*========================================*/
 
-/*contact.html css*/
 #contact_background{
-	background:url('../images/contact.JPG') no-repeat 50% 50%;
+	position: relative;
+	background:url('../images/contact.jpg') no-repeat 50% 50%;
     background-size: cover;
     height: 100%;
-    margin-top: 10px;
-    padding: 20px;
+    padding: 80px 20px;
 }
 
 .contact_page{
-	/*height: 600px;*/
-	/*margin-top: 600px;*/
-	padding-top: 400px;
-	margin-left: 60px;
-	margin-bottom: 0;
-	padding-bottom: 10px;
 	opacity: 0.8;
 }
 
 .contact_page h1{
-	font-size: 50px;
 	color: #E8A11C;
-	margin-bottom: 0;
+}
+
+.contactInfo{
+	position: absolute;
+	bottom: 10%;
+}
+
+/*========================================*/
+	/*MEDIA QUERIES*/
+/*========================================*/
+
+@media only screen and (min-width: 320px){ 
+	#topnav ul{
+		margin-left: -20px;
+	}
+
+	#topnav li{
+		margin: 10px;
+	}
+
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 21px;
+	}
+
+	.page_header h2{
+		font-size: 21px;
+	}
+
+	.page_header h1{
+		font-size: 30px;
+		margin-top: 0;
+	}
+	.learning_page h1{
+		font-size: 28px;
+	}
+
+	.talk_content h2{
+	font-size: 21px;
+	}
+	iframe{
+		width: 350px;
+		height: 300px;
+	}	
+}
+
+}
+
+@media only screen and (min-width: 640px){ 
+	iframe{
+		width: 500px;
+		height: 400px;
+	}	
+}
+
+@media only screen and (min-width: 768px){ 
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 35px;
+	}
+
+	.page_header h2{
+		font-size: 35px;
+	}
+
+	.page_header h1{
+		font-size: 40px;
+		margin-top: 0;
+	}
+	.learning_page h1{
+		font-size: 40px;
+	}
+
+	.talk_content h2{
+	font-size: 35px;
+	}
+	iframe{
+		width: 800px;
+		height: 475px;
+	}	
+}
+
+@media only screen and (min-width: 1024px){ 
+	.page_header h2{
+		font-size: 50px;
+	}
+
+	.page_header h1{
+		font-size: 90px;
+		margin-top: -50px;
+	}
 }
 
 

@@ -1,4 +1,14 @@
-$(function() {
+$(document).ready(function() {
+		var bgHeight = $('.bg');
+		var setHeight = function(){
+			bgHeight.css ({
+				height: $(window).innerHeight() + 'px'
+			});
+			console.log($(window).innerHeight() + 'px');
+		};
+		setHeight();
+		$(window).resize(setHeight);
+
 	$('#topnav a').click(function() {
 		var targetId = $(this).attr('href');
 		console.log(targetId);
@@ -11,10 +21,6 @@ $(function() {
 
 		$('body').animate({ scrollTop : topDistance });
 		return false;
-
 	});
 	
-
-
-
 });
